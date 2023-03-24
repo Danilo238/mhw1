@@ -1,0 +1,168 @@
+#ca{
+    margin: 0;
+    background-color: grey;
+    font-size: 30px;
+}
+
+#div-container{
+    position: absolute;
+    background-color: rgb(0,0,0,0.3);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-container-2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -180px;
+}
+
+#text{
+    font-family: 'Fasthand', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.move{
+    padding-right: 40px;
+}
+
+div.titolo{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-left: -62.51px;
+}
+
+div.style{
+    margin-bottom: 20px;
+    line-height:normal
+}
+
+#end{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7em;
+}
+
+#c{
+    position: relative;
+    background-image: url(imm2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 500px;
+    border: 10px solid whitesmoke;
+    font-size: 1em;
+    margin-bottom: 120px;
+}
+
+h1.nome{
+    position: absolute;
+    margin: 0;
+    width: 780px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Great Vibes', cursive;
+}
+
+#immagine{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 5px solid whitesmoke;
+}
+
+@media(max-width:550px){
+    #ca{
+        font-size: 13px;
+    }
+
+    nav a.link{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.titolo{
+        margin-left: -49.75px;
+    }
+}
+
+@media(max-width: 780px)
+{
+    h1.nome{
+        width: 100vw;
+    }
+}
+ @media(min-width: 550px)
+ {
+    #menu{
+    display: none;
+    }
+}
+
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+#nav-container{
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    height: 40px;
+    font-size: 0.5em;
+}
+
+nav a.link{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 1px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.2em;
+}
+
+nav a.link:hover{
+    background-color: pink;
+}
+
+#between{
+    width: 66.67%;
+    margin: 60px auto 20px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+section img.space{
+    margin-bottom: 120px;
+    object-fit: contain;
+}
